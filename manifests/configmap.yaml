@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: vimeo-assignment
+data:
+  DB_HOST: "my-mysql.vimeo-assignment.svc.cluster.local"
+  DB_NAME: "my_database"
